@@ -212,3 +212,17 @@ div.composer-message-codeblock {
 #workbench\.parts\.sidebar > div > div > div:nth-child(1) > div {
   background-color: var(--editor-background) !important;
 }
+
+div.monaco-list-row.code-cell-row.focused.selected {
+  background-color: var(--editor-background) !important;
+}
+
+/* 指定侧边栏下拉列表为不透明原色 */
+#workbench\.parts\.sidebar
+  > div
+  > div
+  > div:nth-child(1)
+  > div
+  > div:nth-child(2) {
+  background-color: #333645 !important;
+}
